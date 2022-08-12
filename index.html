@@ -8,21 +8,95 @@
     <title>xtrfy</title>
 </head>
 <body>
+    <div class="page-wrapper">
     <header id="header">
         <div class="header">
-            <div class="header__logo"><img class="header-img"src="image/xtrfy_logo.png" alt="logo"></div>
-            <section id="nav-bar">
+            <div class="logo">
+                <img class="header-img"src="image/xtrfy_logo.png" alt="logo">
+            </div>
+            <div id="nav-bar">
                 <ul>
-                    <li><a href="#production" class="nav-link">Production</a></li>
-                    <li><a href="price" class="nav-link">Price</a></li>
-                    <li><a href="about" class="nav-link">About</a></li>
+                    <li><a href="#reg" class="nav-link">Registration</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#pricing" class="nav-link">About</a></li>
                 </ul>
-            </section> 
-            <main>
-                <h1>The best for gamers</h1>
-                <form action="" id="form"></form>
-            </main>
+            </div>
         </div>
     </header>
+            <main>
+                <section class="reg">
+                <h1>The best for gamers</h1>
+                <form action="" id="form">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <a href="https://www.freecodecamp.com/email-submit"><input type="submit" name="submit" id="submit" class="button" value="REGISTRATION"></a>
+                </form>
+                <section class="review">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/a9Y4sOydIFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>  
+                </section>
+                <section class="features">
+                    <div class="container">
+                        <div class="features__icon"><img src="image/shipping-icon.png" alt=""></div>
+                        <div class="features__text">
+                            <h2>Shipping</h2>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="features__icon"><img src="image/clients-icon.jpg" alt="clients"></div>
+                        <div class="features__text">
+                            <h2>Client service</h2>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="features__icon"><img src="image/quality-icon.jpg" alt="quality"></div>
+                        <div class="features__text">
+                            <h2>Quality assurance</h2>
+                        </div>
+                    </div>
+                </section>   
+                <section class="pricing">
+                    <div class="product">
+                        <img src="image/xtrfym4.jpg" alt="xtrfym4">
+                        <h2>Xtrfy M4</h2>
+                        <p>Price 90$</p>
+                        <ul>
+                            <li>Symmetrical shape</li>
+                            <li>Adjustable size</li>
+                            <li>Adjustable weight balance</li>
+                        </ul>
+                    </div>
+                    <div class="product">
+                        <img src="image/Xtrfy-K5-speedsilver-edition_category-1.png" alt="k5">
+                        <h2>K5 COMPACT SPEED SILVER EDITION</h2>
+                        <p>Price 139$</p>
+                        <ul>
+                            <li>65% mechanical keyboard</li>
+                            <li>Per-key customizable RGB</li>
+                            <li>Hot-swappable Cherry MX Speed Silver switches</li>
+                        </ul>
+                    </div>
+                    <div class="product">
+                        <img src="image/Xtrfy-GP5-Miami-Gaming-Mousepad-Category.png" alt="mousepad">
+                        <h2>GP5 MIAMI XL</h2>
+                        <p>Price 29$</p>
+                        <ul>
+                            <li>920 x 400 x 3 mm</li>
+                            <li>Premium cloth surface</li>
+                            <li>Non-slip rubber base</li>
+                            <li>Speed mousepad</li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+        <footer>
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Contact</li>
+            </ul>
+            <span>Slava Ukraini</span>
+        </footer>
+    </div>
 </body>
 </html>
